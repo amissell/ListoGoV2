@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f7fc;
+    color: #333;
+    line-height: 1.6;
+    /* overflow-x: hidden; */
+    width: 100wh;
+}
+
+/* #home{
+    background-color: #172e56;
+
+}
+.container {
+    background-color: white;
+} */
+
+.hero-image
+{
+    position: absolute;
+    background-image: url(images/Hero\ Section.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0 1rem;
+    height: 85%;
+    width: 90%;
+}
+
+.welcome-hero-txt
+{
+    font-size: x-large;
+    position: relative;
+    top : 15rem;
+    left: 5rem;
+    
+
+}
+
+header{
+    height: 6rem;
+    width: 100%;
+}
+
+.nav-bar
+{
+    margin-top: 2rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.links{
+    display: flex;
+    gap: 5rem;
+    text-decoration: none ;
+}
+
+ li, a{
+    list-style: none;
+    color: black;
+    text-decoration: none;
+}
+
+.btn-login
+{
+    height: 50px;
+    width: 150px;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: rgb(20, 182, 223);
+    border: 2px solid rgb(20, 182, 223);
+    border-radius: 22px;
+}
+
+
+
+ .text-two{
+    text-align: center;
+}
+
